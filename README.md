@@ -266,6 +266,7 @@ An entropy pool value greater than 2000 is sufficient.
 
 Create a temporary directory which will be cleared on [reboot](https://en.wikipedia.org/wiki/Tmpfs):
 
+TODO : use ramfs instead
 ```console
 $ export GNUPGHOME=$(mktemp -d)
 
